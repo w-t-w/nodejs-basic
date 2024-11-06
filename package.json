@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-basic",
+  "version": "0.0.1",
+  "description": "nodejs basic",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wtsht/nodejs-basic.git"
+  },
+  "keywords": [
+    "nodejs",
+    "Node"
+  ],
+  "author": "wtw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtsht/nodejs-basic/issues"
+  },
+  "homepage": "https://github.com/wtsht/nodejs-basic#readme"
+}
