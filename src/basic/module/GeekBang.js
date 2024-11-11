@@ -3,7 +3,7 @@ const EventEmitter = require('events').EventEmitter;
 class GeekBang extends EventEmitter {
     constructor() {
         super();
-        setInterval(() => {
+        setInterval(function () {
             this.emit("lesson", {price: Math.floor(Math.random() * 100)});
         }, 800);
     }
