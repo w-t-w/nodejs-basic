@@ -72,5 +72,5 @@ require("./game/koa");
 console.log("");
 console.log("第十九章(rpc 基础使用):");
 console.log("");
-require("./game/koa");
+require("./rpc");
 console.log("");
