@@ -17,4 +17,4 @@
 //         clearTimeout(timer);
 //     }, 800);
 // }
-console.log("callback 课程已经结束!如需重新学习,则将本文件上面的所有被注释的代码解注即可!");
+console.log("callback 回调函数课程已经结束!如需重新学习,则将本文件上面的所有被注释的代码解注即可!");
