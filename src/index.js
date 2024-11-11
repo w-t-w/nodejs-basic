@@ -46,3 +46,7 @@ console.log("第十二章(Promise - 多公司面试):");
 console.log("");
 require("./basic/promiseMutiInterview");
 console.log("");
+console.log("第十三章(async/await - 面试):");
+console.log("");
+require("./basic/asyncAwaitInterview");
+console.log("");
