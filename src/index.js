@@ -58,4 +58,7 @@ console.log("第十五章(httpServer):");
 console.log("");
 require("./basic/httpServer");
 console.log("");
-
+console.log("第十六章(使用 httpServer 改进剪刀、石头与布猜拳游戏并显示至 Web 页面中):");
+console.log("");
+require("./game/httpServer");
+console.log("");
