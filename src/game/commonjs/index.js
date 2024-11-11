@@ -7,7 +7,7 @@
 // console.log("第一届石头、剪刀与布的猜拳游戏现在正式开始:");
 // console.log("请玩家输入猜拳手势(scissor rock or paper):");
 
-// process.stdin.on("data", data => {
+// process.stdin.on("data", function(data) {
 //     const result = data.toString().trim();
 //
 //     const gameResult = game(result);
