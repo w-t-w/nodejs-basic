@@ -7,7 +7,7 @@ const gameSelection = ["scissor", "rock", "paper"],
 const playerAction = argv[length - 1];
 
 if (!gameSelection.includes(playerAction)) {
-    console.log("玩家输入的剪刀、石头与布猜拳手势不符合规范!请重新输入!");
+    console.error("玩家输入的剪刀、石头与布猜拳手势不符合规范!请重新输入!");
     process.exit(0);
 }
 

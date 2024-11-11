@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/w-t-w/nodejs-basic#readme",
   "dependencies": {
-    "glob": "7.2.3"
+    "express": "^4.21.1",
+    "glob": "7.2.3",
+    "koa": "^2.15.3",
+    "koa-mount": "^4.0.0"
   }
 }

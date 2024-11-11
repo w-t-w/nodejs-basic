@@ -21,11 +21,11 @@ module.exports = function game(playerAction) {
     if (computerAction === playerAction) {
         console.log("平局!");
         return 0;
-    } else if(gameSelection[position] === playerAction) {
+    } else if (gameSelection[position] === playerAction) {
         console.log("玩家赢!电脑输!");
         return 1;
     } else {
         console.log("电脑赢!玩家输!");
         return -1;
     }
-};
+}

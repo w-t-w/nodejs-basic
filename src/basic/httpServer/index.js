@@ -7,7 +7,7 @@
 //
 // const TEMPLATE = path.resolve(__dirname, "index.html");
 //
-// const server = http.createServer((request, response) => {
+// const server = http.createServer(function (request, response) {
 //     const {pathname} = url.parse(request.url);
 //
 //     if (pathname === "/favicon.ico") {
@@ -22,8 +22,8 @@
 //     }
 // });
 //
-// server.listen(PORT, () => {
+// server.listen(PORT, function() {
 //     console.log(`The server is running at http://localhost:${PORT}!`);
 // });
 
-console.log("httpServer - 课程已经结束!如需重新学习,则将本文件上面的所有被注释的代码解注即可!");
+console.log("httpServer 课程已经结束!如需重新学习,则将本文件上面的所有被注释的代码解注即可!");

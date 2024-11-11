@@ -11,4 +11,4 @@
 //     console.log(`The server is running at http://localhost:${PORT}!`);
 // });
 
-console.log("http - 课程已经结束!如需重新学习,则将本文件上面的所有被注释的代码解注即可!");
+console.log("http 课程已经结束!如需重新学习,则将本文件上面的所有被注释的代码解注即可!");
