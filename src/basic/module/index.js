@@ -1,4 +1,4 @@
-// const geekBang = require('./GeekBang');
+// const geekBang = require("./GeekBang");
 //
 // geekBang.addListener("lesson", function ({price}) {
 //     if (price <= 80) {

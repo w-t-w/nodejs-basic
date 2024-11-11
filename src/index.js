@@ -1,10 +1,10 @@
 console.log("第一章(nodejs 内置对象与方法):");
 console.log("");
-require('./basic');
+require("./basic");
 console.log("");
 console.log("第二章(nodejs 手写一个简单的剪刀、石头与布猜拳游戏):");
 console.log("");
-require('./game');
+require("./game");
 console.log("");
 console.log("第三章(commonjs 规范):");
 console.log("");
@@ -50,3 +50,12 @@ console.log("第十三章(async/await - 面试):");
 console.log("");
 require("./basic/asyncAwaitInterview");
 console.log("");
+console.log("第十四章(http):");
+console.log("");
+require("./basic/http");
+console.log("");
+console.log("第十五章(httpServer):");
+console.log("");
+require("./basic/httpServer");
+console.log("");
+

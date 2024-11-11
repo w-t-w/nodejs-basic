@@ -11,7 +11,7 @@ exports.geekBang = () => {
 };
 
 const timer = setTimeout(function () {
-    console.log('exports result:', exports);
+    console.log("exports result:", exports);
     clearTimeout(timer);
 }, 1000);
 
