@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/w-t-w/nodejs-basic/issues"
   },
-  "homepage": "https://github.com/w-t-w/nodejs-basic#readme"
+  "homepage": "https://github.com/w-t-w/nodejs-basic#readme",
+  "dependencies": {
+    "glob": "7.2.3"
+  }
 }
