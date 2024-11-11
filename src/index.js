@@ -34,3 +34,7 @@ console.log("第九章(callback 回调函数-面试):");
 console.log("");
 require("./basic/callbackInterview");
 console.log("");
+console.log("第十章(事件循环):");
+console.log("");
+require("./basic/eventLoop");
+console.log("");
