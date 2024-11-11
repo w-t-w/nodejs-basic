@@ -66,7 +66,7 @@ console.log("第十七章(使用 express 改进剪刀、石头与布猜拳游戏
 console.log("");
 require("./game/express");
 console.log("");
-// console.log("第十八章(使用 koa 改进剪刀、石头与布猜拳游戏并显示至 Web 页面中):");
-// console.log("");
-// require("./game/express");
-// console.log("");
+console.log("第十八章(使用 koa 改进剪刀、石头与布猜拳游戏并显示至 Web 页面中):");
+console.log("");
+require("./game/koa");
+console.log("");
