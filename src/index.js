@@ -70,3 +70,7 @@ console.log("第十八章(使用 koa 改进剪刀、石头与布猜拳游戏并�
 console.log("");
 require("./game/koa");
 console.log("");
+console.log("第十九章(rpc 基础使用):");
+console.log("");
+require("./game/koa");
+console.log("");
