@@ -39,11 +39,16 @@ socket.connect({
 
 socket.write(encode(id));
 
-setInterval(function () {
+// setInterval(function () {
+//     index = Math.floor(Math.random() * lesson_length);
+//     id = LESSON_ID[index];
+//     socket.write(encode(id));
+// }, 100);
+for (let i = 0; i < 200; i++) {
     index = Math.floor(Math.random() * lesson_length);
     id = LESSON_ID[index];
     socket.write(encode(id));
-}, 100);
+}
 
 socket.on("data", function (buffer) {
     const {seq, data} = decode(buffer);
