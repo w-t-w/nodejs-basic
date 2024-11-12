@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon ./src/index.js",
     "rpc-simplex-client": "nodemon ./src/rpc/simplex/client.js",
-    "rpc-halfDoublePlex-client": "nodemon ./src/rpc/halfDoublePlex/client.js"
+    "rpc-halfDoublePlex-client": "nodemon ./src/rpc/halfDoublePlex/client.js",
+    "rpc-doublePlexSimple-client": "nodemon ./src/rpc/doublePlexSimple/client.js"
   },
   "repository": {
     "type": "git",
